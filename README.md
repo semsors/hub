@@ -6,13 +6,27 @@ It requires WebSockets to work correctly. Tested in Google Chrome and Mozilla Fi
 ![Hub](https://zippy.gfycat.com/CheerfulAstonishingFantail.gif)
 
 ## Installation
-Install NPM dependecies:
+Install NPM dependencies:
 ```bash
 npm install
 ```
 And Bower:
 ```
 bower install
+```
+
+## Run
+Production:
+```
+npm start
+```
+You can specify Hub and gateway ports:
+```bash
+HUB_PORT=3000 HTTP_GATEWAY_PORT=8010 npm start
+```
+Development (will launch Hub in nodemon and will watch for changes in js/less files):
+```
+gulp
 ```
 
 ## HTTP gateway
@@ -31,17 +45,4 @@ Try with cURL:
 curl -X POST -H "Content-Type: application/json" -d '{
     "readings": [10, 20, 15]
 }' "http://localhost:8080/"
-```
-## Run
-Production:
-```
-npm start
-```
-You can specify Hub and gateway ports:
-```bash
-HUB_PORT=3000 HTTP_GATEWAY_PORT=8010 npm start
-```
-Development (will launch Hub in nodemon and will watch for changes in js/less files):
-```
-gulp
 ```
