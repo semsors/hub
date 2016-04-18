@@ -1,0 +1,37 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset='utf-8')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')
+        meta(name='viewport', content='width=device-width, initial-scale=1')
+        
+        base(href='/')
+        
+        title Hub
+        
+        
+        link(rel='stylesheet', href='c3/c3.min.css')
+        
+        link(rel='stylesheet', href='styles/hub.css')
+        
+        
+        script(src='socket.io-client/socket.io.js')
+        
+        script(src='d3/d3.min.js')
+        script(src='c3/c3.min.js')
+        
+        script(src='chartoptions.js')
+        script(src='flowoptions.js')
+
+    body
+        nav.navbar
+            .container-fluid
+                .navbar-header                    
+                    a.navbar-brand(href='/')
+                        img(src='images/logo.png', alt='semsors')
+
+        .content
+            block content
+
+    
+        script(src='hub.js')

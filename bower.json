@@ -1,0 +1,25 @@
+{
+  "name": "hub",
+  "description": "Simple interface to test your Semsors devices.",
+  "main": "index.js",
+  "authors": [
+    "Tomasz Wrona <tomasz@wrona.me>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "c3": "^0.4.10",
+    "socket.io-client": "^1.4.5"
+  },
+  "devDependencies": {
+    "less": "^2.6.1"
+  }
+}

@@ -1,0 +1,44 @@
+html, body { height: 100%; }
+
+
+.navbar {
+    border: none;
+    background-color: none;
+    .navbar-fixed-top;
+}
+
+
+.content {
+    height: 100%;
+    .container-fluid;
+}
+
+.dashboard {
+    height: 100%;
+    .row;
+
+    .chart {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
+        .make-md-column(12);
+
+        padding-left: 0;
+        padding-right: 0;
+
+        #placeholder {
+            width: 100%;
+            height: 100%;
+            margin: auto auto;
+
+            .c3-line-readings {
+                stroke-width: 5px;
+            }
+
+            .c3-area {
+                opacity: 1 !important;
+            }
+        }
+    }
+}

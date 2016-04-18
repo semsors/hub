@@ -1,0 +1,25 @@
+{
+  "name": "hub",
+  "version": "0.1.0",
+  "description": "Simple interface to test your Semsors devices.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "jade": "^1.11.0",
+    "morgan": "^1.7.0",
+    "socket.io": "^1.4.5"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.0.5",
+    "gulp-nodemon": "^2.0.6",
+    "less": "^2.6.1"
+  }
+}
