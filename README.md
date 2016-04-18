@@ -1,9 +1,9 @@
 # Hub
-Semsors Hub provides simply interface to test your Semsors devices. So far it supports only HTTP gateway, but MQTT protocole will be included in one of the future releases. Graph updates instantly when new data arrives.
+Semsors Hub provides simply interface to test your Semsors devices. So far it supports only HTTP gateway, but MQTT protocol will be included in one of the future releases. Graph updates instantly when new data arrives.
 
 It requires WebSockets to work correctly. Tested in Google Chrome and Mozilla Firefox.
 
-![Hub](https://giant.gfycat.com/HealthyTangibleAphid.gif)
+![Hub](https://zippy.gfycat.com/CheerfulAstonishingFantail.gif)
 
 ## Installation
 Install NPM dependecies:
